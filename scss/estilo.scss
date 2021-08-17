@@ -1,0 +1,229 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-image: URL("../imagenes/fondomadera5.jpeg") !important;
+}
+
+a {
+  color: white !important;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 20px !important;
+}
+.tamano {
+  height: 250px;
+}
+
+.row2 {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly !important;
+  margin-top: 5% !important;
+}
+.imgindex {
+  height: 205px;
+}
+.padd {
+  padding-top: 10%;
+}
+.btn-whatsapp {
+  display: block;
+  //width:50%;
+  //height:50%;
+  color: #fff;
+  position: fixed;
+  right: 1px;
+  bottom: 3%;
+  border-radius: 1%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+
+.icon-wsp {
+  width: 50%;
+  height: 50%;
+}
+
+.titulo {
+  margin-top: 60px;
+  background-color: rgba(204, 161, 68, 0.317);
+  font-family: "Roboto", sans-serif;
+  color: rgb(245, 244, 241);
+  text-align: center;
+}
+.titulo2 {
+  background-color: rgba(204, 161, 68, 0.317);
+  margin-top: 60px;
+  
+  font-family: "Roboto", sans-serif;
+  color: rgb(245, 244, 241);
+  text-align: center;
+}
+.divform {
+  padding-left: 15%;
+}
+.form {
+  margin-top: 10%;
+
+  background-color: rgba(204, 161, 68, 0.317);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(250, 249, 248);
+  align-content: center;
+  border-radius: 30px;
+}
+
+.pie {
+  margin-top: 5%;
+
+  &__footer {
+    background-color: rgba(204, 161, 68, 0.317);
+  }
+  &__text {
+    font-family: "Roboto", sans-serif;
+    color: rgba(249, 249, 249, 0.712);
+    text-align: center;
+  }
+}
+.imagenres {
+  margin-top: 5%;
+  //margin-left: 5%;
+}
+.imgres {
+  width: 100%;
+  height: 100%;
+}
+
+.listaservicios {
+  border-radius: 30px;
+  background-color: rgba(204, 161, 68, 0.317);
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.intro {
+  text-align:center;
+  border-radius: 20px;
+  background-color: rgba(204, 161, 68, 0.317);
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(245, 244, 241);
+  line-height: 40px;
+}
+#frame{ 
+   
+  width:100%;
+  height:300px; 
+  border-radius: 3%;
+  margin-top: 2%;
+}
+@media (min-width: 1024px) {
+  .navcenter {
+    padding-left: 15%;
+  }
+  .lista {
+    li{
+      border: 2px solid;
+      border-radius: 10px;
+      background: rgb(204, 161, 68);
+      
+    }
+  }
+  .tamano {
+    height: 400px;
+  }
+  .divform {
+    padding-left: 40%;
+  }
+  .form {
+    margin-top: 5%;
+    
+    background-color: rgba(204, 161, 68, 0.317);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold !important;
+    font-size: 20px;
+    color: rgb(250, 249, 248);
+    align-content: center;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .navcenter {
+    padding-left: 25% !important;
+  }
+  .tamano {
+    height: 600px;
+  }
+  .padd {
+    padding-top: 5%;
+  }
+  .btn-whatsapp {
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 3%;
+    border-radius: 1%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+  }
+  .icon-wsp {
+    width: auto;
+    height: auto;
+  }
+  .imgindex {
+    height: 10%;
+  }
+
+  .lista {
+    li{
+      border: 2px solid;
+      border-radius: 10px;
+      background: rgb(204, 161, 68);
+    }
+    li:hover {
+      //background-color: rgba(100, 71, 9, 0.317);
+      background:#D37414;
+    }
+  }
+  .titulo {
+    margin-top: 60px;
+    
+    font-family: "Roboto", sans-serif;
+    color: rgb(245, 244, 241);
+    text-align: center;
+  }
+  .divform {
+    padding-left: 35%;
+  }
+  .form {
+    margin-top: 5%;
+    background-color: rgba(204, 161, 68, 0.317);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgb(250, 249, 248);
+    align-content: center;
+    border-radius: 30px;
+  }
+  .imagenres {
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+
+  .imgres {
+    width: 80%;
+    height: 100%;
+  }
+  #frame{
+    height: 450px;
+  }
+}
