@@ -7845,13 +7845,11 @@ a {
 
 .titulo {
   margin-top: 60px;
-  background-color: rgba(204, 161, 68, 0.317);
   font-family: "Roboto", sans-serif;
   color: #f5f4f1;
   text-align: center; }
 
 .titulo2 {
-  background-color: rgba(204, 161, 68, 0.317);
   margin-top: 60px;
   font-family: "Roboto", sans-serif;
   color: #f5f4f1;
@@ -7862,7 +7860,6 @@ a {
 
 .form {
   margin-top: 10%;
-  background-color: rgba(204, 161, 68, 0.317);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #faf9f8;
@@ -7887,7 +7884,6 @@ a {
 
 .listaservicios {
   border-radius: 30px;
-  background-color: rgba(204, 161, 68, 0.317);
   list-style-type: none;
   text-align: center;
   color: #fff;
@@ -7896,7 +7892,6 @@ a {
 .intro {
   text-align: center;
   border-radius: 20px;
-  background-color: rgba(204, 161, 68, 0.317);
   margin-top: 40px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -7922,13 +7917,15 @@ a {
     padding-left: 40%; }
   .form {
     margin-top: 5%;
-    background-color: rgba(204, 161, 68, 0.317);
     font-family: "Roboto", sans-serif;
     font-weight: bold !important;
     font-size: 20px;
     color: #faf9f8;
     align-content: center;
     border-radius: 30px; } }
+
+.fondodiv {
+  background-color: rgba(204, 161, 68, 0.317); }
 
 @media (min-width: 1200px) {
   .navcenter {
@@ -7969,7 +7966,6 @@ a {
     padding-left: 35%; }
   .form {
     margin-top: 5%;
-    background-color: rgba(204, 161, 68, 0.317);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: #faf9f8;
