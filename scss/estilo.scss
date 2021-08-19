@@ -46,25 +46,16 @@ a {
 
 .titulo {
   margin-top: 60px;
-  //background-color: rgba(204, 161, 68, 0.317);
   font-family: "Roboto", sans-serif;
   color: rgb(245, 244, 241);
   text-align: center;
 }
-.titulo2 {
-  //background-color: rgba(204, 161, 68, 0.317);
-  margin-top: 60px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(245, 244, 241);
-  text-align: center;
-}
+
 .divform {
   padding-left: 15%;
 }
 .form {
   margin-top: 10%;
-
-  //background-color: rgba(204, 161, 68, 0.317);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: rgb(250, 249, 248);
@@ -138,8 +129,6 @@ a {
   }
   .form {
     margin-top: 5%;
-    
-   // background-color: rgba(204, 161, 68, 0.317);
     font-family: "Roboto", sans-serif;
     font-weight: bold !important;
     font-size: 20px;
@@ -165,24 +154,17 @@ a {
     padding-top: 5%;
   }
   .btn-whatsapp {
-    display: block;
     width: 60px;
     height: 60px;
-    color: #fff;
-    position: fixed;
     right: 20px;
-    bottom: 3%;
-    border-radius: 1%;
-    line-height: 80px;
-    text-align: center;
-    z-index: 999;
   }
   .icon-wsp {
     width: auto;
     height: auto;
   }
   .imgindex {
-    height: 10%;
+    width: 400px;
+    height: 500px;
   }
 
   .lista {
@@ -192,23 +174,15 @@ a {
       background: rgb(204, 161, 68);
     }
     li:hover {
-      //background-color: rgba(100, 71, 9, 0.317);
       background:#D37414;
     }
   }
-  .titulo {
-    margin-top: 60px;
-    
-    font-family: "Roboto", sans-serif;
-    color: rgb(245, 244, 241);
-    text-align: center;
-  }
+
   .divform {
     padding-left: 35%;
   }
   .form {
     margin-top: 5%;
-    //background-color: rgba(204, 161, 68, 0.317);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: rgb(250, 249, 248);

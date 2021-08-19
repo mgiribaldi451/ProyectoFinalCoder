@@ -7849,12 +7849,6 @@ a {
   color: #f5f4f1;
   text-align: center; }
 
-.titulo2 {
-  margin-top: 60px;
-  font-family: "Roboto", sans-serif;
-  color: #f5f4f1;
-  text-align: center; }
-
 .divform {
   padding-left: 15%; }
 
@@ -7935,33 +7929,21 @@ a {
   .padd {
     padding-top: 5%; }
   .btn-whatsapp {
-    display: block;
     width: 60px;
     height: 60px;
-    color: #fff;
-    position: fixed;
-    right: 20px;
-    bottom: 3%;
-    border-radius: 1%;
-    line-height: 80px;
-    text-align: center;
-    z-index: 999; }
+    right: 20px; }
   .icon-wsp {
     width: auto;
     height: auto; }
   .imgindex {
-    height: 10%; }
+    width: 400px;
+    height: 500px; }
   .lista li {
     border: 2px solid;
     border-radius: 10px;
     background: #cca144; }
   .lista li:hover {
     background: #D37414; }
-  .titulo {
-    margin-top: 60px;
-    font-family: "Roboto", sans-serif;
-    color: #f5f4f1;
-    text-align: center; }
   .divform {
     padding-left: 35%; }
   .form {
